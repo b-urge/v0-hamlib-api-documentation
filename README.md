@@ -2,28 +2,6 @@
 
 The Hamlib API provides a RESTful interface for controlling amateur radio equipment and antenna rotators. This documentation covers all available endpoints, authentication methods, and includes an interactive playground for testing.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Base URL](#base-url)
-- [Authentication](#authentication)
-- [Response Format](#response-format)
-- [Endpoints](#endpoints)
-  - [Radio Control](#radio-control)
-    - [Get Frequency](#get-frequency)
-    - [Set Frequency](#set-frequency)
-    - [Get Mode](#get-mode)
-    - [Set Mode](#set-mode)
-  - [VFO Control](#vfo-control)
-    - [Get VFO](#get-vfo)
-    - [Set VFO](#set-vfo)
-  - [Rotator Control](#rotator-control)
-    - [Set Position](#set-position)
-- [VFO Reference](#vfo-reference)
-- [Error Codes](#error-codes)
-- [Rate Limiting](#rate-limiting)
-- [Resources](#resources)
-
 ## Overview
 
 Hamlib (Ham Radio Control Library) provides a standardized way to control a wide
